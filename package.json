@@ -1,0 +1,37 @@
+{
+  "name": "payments",
+  "version": "1.0.0",
+  "description": "API de integração com sistemas de pagamento.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha index.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelluisdacostacoelho/payments.git"
+  },
+  "keywords": [
+    "payments",
+    "mercadopago"
+  ],
+  "author": "Rafael Luis da Costa Coelho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelluisdacostacoelho/payments/issues"
+  },
+  "homepage": "https://github.com/rafaelluisdacostacoelho/payments#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.4.2",
+    "graphql-tag": "^2.10.1",
+    "graphql-tools": "^4.0.5",
+    "knex": "^0.19.2",
+    "mercadopago": "^1.0.24",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "mock-knex": "^0.4.6"
+  }
+}
